@@ -1,5 +1,7 @@
 def prime?(integer)
-  if integer / 2 == Integer
+  if integer * (-1) > 0
+    false
+  elsif integer / 2 == Integer
     false
   elsif integer / 3 == Integer
     false
@@ -7,7 +9,6 @@ def prime?(integer)
     false
   elsif integer / 7 == Integer
     false
-  elsif integer * (-1) == integer
   else
     true
   end
