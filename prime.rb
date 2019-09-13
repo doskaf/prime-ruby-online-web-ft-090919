@@ -1,5 +1,5 @@
 def prime?(integer)
-  if integer == Integer * Integer
+  if integer == (Integer) * (Integer)
     false
   else
     true
