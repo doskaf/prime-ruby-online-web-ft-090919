@@ -1,3 +1,4 @@
 def prime?(integer)
-  if integer / 1.0 == 0
+  if integer / Integer == Integer
+    
 end
