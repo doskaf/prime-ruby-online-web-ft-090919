@@ -12,5 +12,5 @@ def sieve(max)
 end
 
 def prime?(integer)
- sieve(integer)
+ sieve(integer).include?(integer)
 end
