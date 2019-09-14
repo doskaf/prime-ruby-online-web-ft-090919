@@ -1,4 +1,4 @@
-def sieve
+def sieve(max)
   
 end
 
