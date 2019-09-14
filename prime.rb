@@ -8,6 +8,7 @@ def sieve(max)
     counter += 1
     (p*p).step(max,p) { |m| primes[m] = nil }
   end
+  primes.compact
 end
 
 def prime?(integer)
